@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<canvas id="canvas">
+			
+		</canvas>
+		<script type="text/javascript">
+			window.onload = function(){
+				var canvas = document.getElementById("canvas");
+				var context = canvas.getContext("2d");
+				canvas.width = window.innerWidth;
+				canvas.height = window.innerHeight;
+
+				var loadImage = function(){
+					context.drawImage(img, 0, 0, 300, 400);
+				};
+
+				var img = new Image();
+				img.onload = loadImage;
+				img.src = "evilman.png";
+			}
+		</script>
+	</body>
+</html>
