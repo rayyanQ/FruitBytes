@@ -8,19 +8,19 @@ $(document).ready(function(){
 	var d = new Date();
 	var h = d.getHours();
 	if(h > 7 && h < 16){
-		$(".body").css({"background":"url('http://www.fruitbytes.tk/img/bg1.jpg') no-repeat center fixed", "background-size":"100% 100%"});
+		$(".body").css({"background":"url('./img/bg1.jpg') no-repeat center fixed", "background-size":"100% 100%"});
 	}
 	else if(h > 15 && h < 19){
-		$(".body").css({"background":"url('http://www.fruitbytes.tk/img/bg2.jpg') no-repeat center fixed", "background-size":"100% 100%"});
+		$(".body").css({"background":"url('./img/bg2.jpg') no-repeat center fixed", "background-size":"100% 100%"});
 	}
 	else if(h > 18 && h < 24){
-		$(".body").css({"background":"url('http://www.fruitbytes.tk/img/bg3.jpg') no-repeat center fixed", "background-size":"100% 100%"});
+		$(".body").css({"background":"url('./img/bg3.jpg') no-repeat center fixed", "background-size":"100% 100%"});
 	}
 	else if(h > -1 && h < 4){
-		$(".body").css({"background":"url('http://www.fruitbytes.tk/img/bg3.jpg') no-repeat center fixed", "background-size":"100% 100%"});
+		$(".body").css({"background":"url('./img/bg3.jpg') no-repeat center fixed", "background-size":"100% 100%"});
 	}
 	else if(h > 3 && h < 8){
-		$(".body").css({"background":"url('http://www.fruitbytes.tk/img/bg2.jpg') no-repeat center fixed", "background-size":"100% 100%"});
+		$(".body").css({"background":"url('./img/bg2.jpg') no-repeat center fixed", "background-size":"100% 100%"});
 	}
 	
 	var stage;
